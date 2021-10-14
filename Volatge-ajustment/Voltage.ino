@@ -1,9 +1,6 @@
 /*
- * Created by ArduinoGetStarted.com
- *
- * This example code is in the public domain
- *
- * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-potentiometer
+ * This example uses just the potentiometer to change the voltage and show it on
+ * serial monitor
  */
 
 float floatMap(float x, float in_min, float in_max, float out_min, float out_max) {
